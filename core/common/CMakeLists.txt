@@ -68,6 +68,7 @@ set(COMMON_SRC
     src/basics/tool_func.cpp
     src/basics/shapes.cpp
     src/basics/colormap.cpp
+    src/math/calculations.cpp
     )
 add_library(hkust_pl_common
             ${COMMON_SRC}
