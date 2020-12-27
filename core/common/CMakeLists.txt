@@ -70,6 +70,7 @@ set(COMMON_SRC
     src/basics/colormap.cpp
     src/math/calculations.cpp
     src/state/free_state.cpp
+    src/idm/intelligent_driver_model.cpp
     )
 add_library(hkust_pl_common
             ${COMMON_SRC}
