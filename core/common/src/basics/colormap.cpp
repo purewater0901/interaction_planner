@@ -8,7 +8,6 @@
  * @copyright Copyright (c) 2019
  */
 #include "basics/colormap.h"
-#include "state/waypoint.h"
 
 namespace common {
     std::map<std::string, ColorARGB> cmap{

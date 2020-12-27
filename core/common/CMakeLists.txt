@@ -69,6 +69,7 @@ set(COMMON_SRC
     src/basics/shapes.cpp
     src/basics/colormap.cpp
     src/math/calculations.cpp
+    src/state/free_state.cpp
     )
 add_library(hkust_pl_common
             ${COMMON_SRC}
