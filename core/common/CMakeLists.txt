@@ -68,11 +68,16 @@ set(COMMON_SRC
     src/basics/tool_func.cpp
     src/basics/shapes.cpp
     src/basics/colormap.cpp
+    src/basics/semantics.cpp
     src/math/calculations.cpp
     src/state/free_state.cpp
     src/idm/intelligent_driver_model.cpp
     src/circle_arc/circle_arc.cpp
     src/circle_arc/circle_arc_branch.cpp
+    src/spline/lookup_table.cpp
+    src/spline/spline_generator.cpp
+    src/lane/lane.cpp
+    src/lane/lane_generator.cpp
     )
 add_library(hkust_pl_common
             ${COMMON_SRC}

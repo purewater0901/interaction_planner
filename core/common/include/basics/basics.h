@@ -22,6 +22,9 @@ enum ErrorType { kSuccess = 0, kWrongStatus, kIllegalInput, kUnknown };
 template <typename T>
 using vec_E = std::vector<T, Eigen::aligned_allocator<T>>;
 
+template <int N>
+using vec_Vecf = vec_E<Eigen::Matrix<double,N,1>>;
+
 namespace constants
 {
     const double kBigEPS = 1e-1;
