@@ -71,6 +71,7 @@ set(COMMON_SRC
     src/basics/semantics.cpp
     src/math/calculations.cpp
     src/state/free_state.cpp
+    src/state/state_transformer.cpp
     src/idm/intelligent_driver_model.cpp
     src/circle_arc/circle_arc.cpp
     src/circle_arc/circle_arc_branch.cpp
