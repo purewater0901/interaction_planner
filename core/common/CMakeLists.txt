@@ -81,6 +81,8 @@ set(COMMON_SRC
     src/lane/lane_generator.cpp
     src/primitive/frenet_primitive.cpp
     src/rss/rss_checker.cpp
+    src/mobil/mobil_model.cpp
+    src/mobil/mobil_behavior_prediction.cpp
     )
 add_library(hkust_pl_common
             ${COMMON_SRC}
