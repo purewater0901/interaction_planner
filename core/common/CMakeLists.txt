@@ -79,6 +79,7 @@ set(COMMON_SRC
     src/spline/spline_generator.cpp
     src/lane/lane.cpp
     src/lane/lane_generator.cpp
+    src/primitive/frenet_primitive.cpp
     )
 add_library(hkust_pl_common
             ${COMMON_SRC}
